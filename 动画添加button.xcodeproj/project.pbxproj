@@ -15,6 +15,10 @@
 		604409631FC57B0300944A0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 604409621FC57B0300944A0B /* main.m */; };
 		6044096D1FC57B0400944A0B /* ____buttonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6044096C1FC57B0400944A0B /* ____buttonTests.m */; };
 		604409781FC57B0400944A0B /* ____buttonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 604409771FC57B0400944A0B /* ____buttonUITests.m */; };
+		604409881FC57CE700944A0B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 604409861FC57CE700944A0B /* UIView+Extension.m */; };
+		6044098B1FC57DC500944A0B /* DCVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6044098A1FC57DC500944A0B /* DCVerticalButton.m */; };
+		604409931FC5836B00944A0B /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 604409911FC5836B00944A0B /* NSString+Size.m */; };
+		A036500435AC59BDDD86D83F /* libPods-动画添加button.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 47DD530FC4AB16B9D572CC9C /* libPods-动画添加button.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C1CBCD9313E1B29006774B5 /* Pods-动画添加button.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-动画添加button.release.xcconfig"; path = "Pods/Target Support Files/Pods-动画添加button/Pods-动画添加button.release.xcconfig"; sourceTree = "<group>"; };
+		47DD530FC4AB16B9D572CC9C /* libPods-动画添加button.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-动画添加button.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		534FB79877ABBBDB454FC575 /* Pods-动画添加button.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-动画添加button.debug.xcconfig"; path = "Pods/Target Support Files/Pods-动画添加button/Pods-动画添加button.debug.xcconfig"; sourceTree = "<group>"; };
 		604409501FC57B0300944A0B /* 动画添加button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "动画添加button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		604409531FC57B0300944A0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		604409541FC57B0300944A0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +58,13 @@
 		604409731FC57B0400944A0B /* 动画添加buttonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "动画添加buttonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		604409771FC57B0400944A0B /* ____buttonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____buttonUITests.m"; sourceTree = "<group>"; };
 		604409791FC57B0400944A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		604409861FC57CE700944A0B /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		604409871FC57CE700944A0B /* UIView+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		604409891FC57DC500944A0B /* DCVerticalButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCVerticalButton.h; sourceTree = "<group>"; };
+		6044098A1FC57DC500944A0B /* DCVerticalButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCVerticalButton.m; sourceTree = "<group>"; };
+		604409911FC5836B00944A0B /* NSString+Size.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		604409921FC5836B00944A0B /* NSString+Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		604409961FC585D900944A0B /* timg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A036500435AC59BDDD86D83F /* libPods-动画添加button.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				6044096B1FC57B0300944A0B /* 动画添加buttonTests */,
 				604409761FC57B0400944A0B /* 动画添加buttonUITests */,
 				604409511FC57B0300944A0B /* Products */,
+				D3D074DA3DA5D5143656B030 /* Pods */,
+				7B2448C1FB0A453A272B5394 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +118,8 @@
 		604409521FC57B0300944A0B /* 动画添加button */ = {
 			isa = PBXGroup;
 			children = (
+				604409961FC585D900944A0B /* timg.jpg */,
+				6044098C1FC57DF900944A0B /* DCTool */,
 				604409531FC57B0300944A0B /* AppDelegate.h */,
 				604409541FC57B0300944A0B /* AppDelegate.m */,
 				604409561FC57B0300944A0B /* ViewController.h */,
@@ -132,6 +151,36 @@
 			path = "动画添加buttonUITests";
 			sourceTree = "<group>";
 		};
+		6044098C1FC57DF900944A0B /* DCTool */ = {
+			isa = PBXGroup;
+			children = (
+				604409921FC5836B00944A0B /* NSString+Size.h */,
+				604409911FC5836B00944A0B /* NSString+Size.m */,
+				604409871FC57CE700944A0B /* UIView+Extension.h */,
+				604409861FC57CE700944A0B /* UIView+Extension.m */,
+				604409891FC57DC500944A0B /* DCVerticalButton.h */,
+				6044098A1FC57DC500944A0B /* DCVerticalButton.m */,
+			);
+			path = DCTool;
+			sourceTree = "<group>";
+		};
+		7B2448C1FB0A453A272B5394 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47DD530FC4AB16B9D572CC9C /* libPods-动画添加button.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3D074DA3DA5D5143656B030 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				534FB79877ABBBDB454FC575 /* Pods-动画添加button.debug.xcconfig */,
+				0C1CBCD9313E1B29006774B5 /* Pods-动画添加button.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6044097C1FC57B0400944A0B /* Build configuration list for PBXNativeTarget "动画添加button" */;
 			buildPhases = (
+				73B019629ED2586C58102A52 /* [CP] Check Pods Manifest.lock */,
 				6044094C1FC57B0300944A0B /* Sources */,
 				6044094D1FC57B0300944A0B /* Frameworks */,
 				6044094E1FC57B0300944A0B /* Resources */,
+				D8ED2E7289EA16C2F3DAE56F /* [CP] Embed Pods Frameworks */,
+				3C443DE2139821B2747CBE98 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +312,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C443DE2139821B2747CBE98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-动画添加button/Pods-动画添加button-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73B019629ED2586C58102A52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-动画添加button-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8ED2E7289EA16C2F3DAE56F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-动画添加button/Pods-动画添加button-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6044094C1FC57B0300944A0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -267,6 +370,9 @@
 			files = (
 				604409581FC57B0300944A0B /* ViewController.m in Sources */,
 				604409631FC57B0300944A0B /* main.m in Sources */,
+				604409881FC57CE700944A0B /* UIView+Extension.m in Sources */,
+				6044098B1FC57DC500944A0B /* DCVerticalButton.m in Sources */,
+				604409931FC5836B00944A0B /* NSString+Size.m in Sources */,
 				604409551FC57B0300944A0B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +534,7 @@
 		};
 		6044097D1FC57B0400944A0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 534FB79877ABBBDB454FC575 /* Pods-动画添加button.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +549,7 @@
 		};
 		6044097E1FC57B0400944A0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C1CBCD9313E1B29006774B5 /* Pods-动画添加button.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
